@@ -1,0 +1,406 @@
+{
+  "id": "3f278144-b35d-40ae-a1b4-e930d1c866e1",
+  "version": "2.0",
+  "name": "s22010197",
+  "url": "https://hospital.navodaya.edu.in",
+  "tests": [{
+    "id": "4534a7e6-823a-4c0b-9a1a-f2829f884bb2",
+    "name": "Verify Input",
+    "commands": [{
+      "id": "aa25fc30-32ec-49e6-acb6-3d6f19d4ba54",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02c82e90-36de-4b77-81d0-ccc8df850d78",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d7c7b0d-a08d-43ec-b415-2f0b0a8e41bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NAVODAYA ADMISSIONS",
+      "targets": [
+        ["linkText=NAVODAYA ADMISSIONS", "linkText"],
+        ["css=.est-external-link", "css:finder"],
+        ["xpath=//a[contains(text(),'NAVODAYA ADMISSIONS')]", "xpath:link"],
+        ["xpath=//div[@id='est-front-display-wrap']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://hospital.navodaya.edu.in/admissions/')])[2]", "xpath:href"],
+        ["xpath=//body/div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NAVODAYA ADMISSIONS')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7300",
+      "windowTimeout": 2000
+    }, {
+      "id": "6e77e5f6-129a-4088-8556-72c967b9fce9",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7300}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad71c9e6-285c-4b67-9b95-ecf71a378776",
+      "comment": "",
+      "command": "click",
+      "target": "name=yname",
+      "targets": [
+        ["name=yname", "name"],
+        ["css=.form-section > p:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='yname']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24eb70bd-90d3-49c4-8e80-275d59fa13b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=yname",
+      "targets": [
+        ["name=yname", "name"],
+        ["css=.form-section > p:nth-child(1) .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='yname']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Kamal Silva"
+    }, {
+      "id": "8698b9ce-bbe3-4cfc-9e4d-74ebd7611560",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=yname",
+      "targets": [],
+      "value": "Kamal Silva"
+    }, {
+      "id": "f6ffba3e-00fb-49cb-bb88-419c7eff53bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=ycity",
+      "targets": [
+        ["name=ycity", "name"],
+        ["css=.col-md-4 .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='ycity']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/div/article/p/span/input", "xpath:idRelative"],
+        ["xpath=//article/p/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc36b8f-c096-4a56-98f1-90b661f1f6a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=ycity",
+      "targets": [
+        ["name=ycity", "name"],
+        ["css=.col-md-4 .wpcf7-form-control", "css:finder"],
+        ["xpath=//input[@name='ycity']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/div/article/p/span/input", "xpath:idRelative"],
+        ["xpath=//article/p/span/input", "xpath:position"]
+      ],
+      "value": "Kandy"
+    }, {
+      "id": "79da30aa-333c-4428-a9bb-e277727e6681",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=ycity",
+      "targets": [],
+      "value": "Kandy"
+    }, {
+      "id": "85323304-462d-4f8c-8d23-40d6c33c479a",
+      "comment": "",
+      "command": "click",
+      "target": "name=tel-111",
+      "targets": [
+        ["name=tel-111", "name"],
+        ["css=.wpcf7-tel", "css:finder"],
+        ["xpath=//input[@name='tel-111']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/div/article[2]/p/span/input", "xpath:idRelative"],
+        ["xpath=//article[2]/p/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23aa518f-30eb-4c3e-8033-eb8ef62fdd8f",
+      "comment": "",
+      "command": "type",
+      "target": "name=tel-111",
+      "targets": [
+        ["name=tel-111", "name"],
+        ["css=.wpcf7-tel", "css:finder"],
+        ["xpath=//input[@name='tel-111']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/div/article[2]/p/span/input", "xpath:idRelative"],
+        ["xpath=//article[2]/p/span/input", "xpath:position"]
+      ],
+      "value": "0774523467"
+    }, {
+      "id": "767ffb95-01c8-4b8f-b48a-ea7bf2ac0a20",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=tel-111",
+      "targets": [],
+      "value": "0774523467"
+    }, {
+      "id": "f9bf616c-e5f2-4bc8-88d9-baf3a292703d",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=tel-111",
+      "targets": [],
+      "value": "PNumber"
+    }, {
+      "id": "5bae51c9-69f4-4776-82ab-7c3bab1e640e",
+      "comment": "",
+      "command": "click",
+      "target": "name=email-367",
+      "targets": [
+        ["name=email-367", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='email-367']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceff2f14-e638-486b-aa52-d5040c707778",
+      "comment": "",
+      "command": "type",
+      "target": "name=email-367",
+      "targets": [
+        ["name=email-367", "name"],
+        ["css=.wpcf7-email", "css:finder"],
+        ["xpath=//input[@name='email-367']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/span/input", "xpath:position"]
+      ],
+      "value": "kamalsilva@gmail.com"
+    }, {
+      "id": "f1ffcb92-db39-4dc1-aafe-e6f8231eb703",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=email-367",
+      "targets": [],
+      "value": "kamalsilva@gmail.com"
+    }, {
+      "id": "8fe18c82-fea4-4c54-ad1d-559cb09914e0",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "name=email-367",
+      "targets": [],
+      "value": "kamalsilva"
+    }, {
+      "id": "aed6da6b-18cc-40c4-89c7-d90a5a4c686f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fakeinput",
+      "targets": [
+        ["css=.fakeinput", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span[2]/div/div", "xpath:idRelative"],
+        ["xpath=//span[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b811b43c-838a-4f1f-a286-1f3b4c5c08c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-option:nth-child(24)",
+      "targets": [
+        ["css=.my-option:nth-child(24)", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span[2]/div/ul/li[24]", "xpath:idRelative"],
+        ["xpath=//li[24]", "xpath:position"],
+        ["xpath=//li[contains(.,'B.E Mech')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bb6fff8-033f-40ff-9460-3ee30266e589",
+      "comment": "",
+      "command": "click",
+      "target": "name=textarea-742",
+      "targets": [
+        ["name=textarea-742", "name"],
+        ["css=.wpcf7-textarea", "css:finder"],
+        ["xpath=//textarea[@name='textarea-742']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9301982-0a6f-43f2-b711-54700f296cb7",
+      "comment": "",
+      "command": "type",
+      "target": "name=textarea-742",
+      "targets": [
+        ["name=textarea-742", "name"],
+        ["css=.wpcf7-textarea", "css:finder"],
+        ["xpath=//textarea[@name='textarea-742']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/p[2]/span[3]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I like to apply"
+    }, {
+      "id": "40accd9c-1242-4e42-a96f-df223ffca4c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-section",
+      "targets": [
+        ["css=.form-section", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b750d7de-740a-458a-b71f-384d1643e4ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-submit",
+      "targets": [
+        ["css=.wpcf7-submit", "css:finder"],
+        ["xpath=//input[@value='Register']", "xpath:attributes"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[2]/div[2]/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a110a0-efc1-40f4-adc6-30a85ab635aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wpcf7-response-output",
+      "targets": [
+        ["css=.wpcf7-response-output", "css:finder"],
+        ["xpath=//div[@id='wpcf7-f306-p2259-o1']/form/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6eba5b-849a-4e4f-8ee8-7ccd60abf20b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kc-css-582483",
+      "targets": [
+        ["css=.kc-css-582483", "css:finder"],
+        ["xpath=//section[@id='admissions']/section[2]", "xpath:idRelative"],
+        ["xpath=//section/section[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80cab86c-4d9a-4f93-bc15-e4780739b25f",
+    "name": "Verify Text",
+    "commands": [{
+      "id": "d6a905ee-917e-4586-ba25-066a949a5f02",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15e01299-316c-4d93-b5e7-99ae8bb63127",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6af6b8a3-1967-4e33-9c32-5260a087e175",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"est-front-display-wrap\"]/div/div/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1d45a94-7691-40a8-af68-b55842a0988f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//*[@id=\"est-front-display-wrap\"]/div/div/a",
+      "targets": [],
+      "value": " NAVODAYA ADMISSIONS "
+    }, {
+      "id": "de561a12-c3b1-48ab-b506-01a160b4fc6b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//*[@id=\"est-front-display-wrap\"]/div/div/a",
+      "targets": [],
+      "value": "UNIVERSITY"
+    }, {
+      "id": "b91cbe47-a2db-4bc0-bed2-97ccc6013b67",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "//*[@id=\"est-front-display-wrap\"]/div/div/a",
+      "targets": [],
+      "value": "UNIVERSITY"
+    }, {
+      "id": "cb485a24-6f1c-4359-ab05-27eeb08fb309",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "50884bae-72db-41e7-ba9f-ec10c75d3f75",
+    "name": "Verify Attribute",
+    "commands": [{
+      "id": "a447c65a-d6cd-4072-92b2-72dbd49f9a42",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c477188-0459-4414-bb1a-53bca3735da7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68b6ea14-ff35-4c2c-8d08-66b0430703d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2273 > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae126f3a-7f2f-4101-afe9-6f62c8be66ad",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#menu-item-2273 > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31c67801-44f9-4aa3-a8e1-1f9969c31bc5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#menu-item-5000 > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ebf464e-5c2e-485d-ac52-4d8b929ef480",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "css=#menu-item-5000 > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2693c47-c9f8-4c21-bb03-9333b6068711",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c67e0753-9c8c-4808-8f11-143f095ac060",
+    "name": "s22010197",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4534a7e6-823a-4c0b-9a1a-f2829f884bb2", "50884bae-72db-41e7-ba9f-ec10c75d3f75", "80cab86c-4d9a-4f93-bc15-e4780739b25f"]
+  }],
+  "urls": ["https://hospital.navodaya.edu.in/"],
+  "plugins": []
+}
