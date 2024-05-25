@@ -16,7 +16,7 @@ add Selenium IDE extension to your browser. Then open a new project.
 # Step 02 
 Watch this video https://youtu.be/4I7xay_NV8A?si=ASIghxIRrajs2khN and record a test case for your website navigation (just navigate through your web page and record a test case thats all). Save it !!
 # Step 03 
-Open VerifyTestTEMP.side click verify tests cases.
+Open VerifyTestTEMP.side click verify tests cases and follow the below instructions for the test cases.
 
 # Here is instruction with explanation to those verify tests. Those orginally from my report so make sure to change website, create your own tests cases and add your own instructions. Good luck !!
 # -------------------------------------------------------------------------------------------------
